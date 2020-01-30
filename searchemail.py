@@ -1,7 +1,7 @@
 import re
 
 file_path = r'PATH' # input path to txt file
-regular = r'[\w\d._-]+@[\w\d.-]+' # regular expression
+regular = r'[\w\d._-]+@[\w.-]+' # regular expression
 
 text_file = open(file_path, 'r') # open file to read
 text = text_file.read() # read all txt file
